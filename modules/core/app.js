@@ -21,7 +21,6 @@ app.directive('reactRepeat', function(){
                     return (React.DOM.ul(null, list));
                 }
             })
-            console.log(elem)
             React.renderComponent(Items(null ), elem[0]);
         }
     }
